@@ -1,8 +1,8 @@
 title: Insight Insure
 description: Consumer-first insurance advice and comparisons
 theme: minima
-baseurl: ""
-url: "https://insightinsure.io"
+baseurl: "/insightinsure"
+url: "https://siavashsed.github.io"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 show_excerpts: true
