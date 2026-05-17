@@ -2,80 +2,81 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Insight Insure — Insurance Advice in Plain Language</title>
+<title>Insight Insure: Insurance Advice in Plain Language</title>
 <meta name="description" content="Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Source Sans 3',system-ui,sans-serif;background:#f8fafc;color:#0f172a;font-size:16px;line-height:1.7}
+body{font-family:'Source Sans 3',system-ui,sans-serif;background:#ffffff;color:#0f172a;font-size:16px;line-height:1.7}
 a{color:inherit;text-decoration:none}
+/* top bar */
+.topbar{background:#ffffff;border-bottom:1px solid #cbd5e1;padding:8px 0}
+.topbar-inner{max-width:1200px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between}
+.topbar-date{font-size:11px;color:#64748b}
+.topbar-links{display:flex;gap:20px}.topbar-links a{font-size:12px;color:#64748b;font-weight:500;transition:color .2s}.topbar-links a:hover{color:#0891b2}
 /* masthead */
-.masthead{border-bottom:1px solid #cbd5e1;padding:10px 0;background:#f1f5f9}
-.masthead-inner{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
-.mast-date{font-size:11px;color:#64748b}
-.mast-links{display:flex;gap:20px}.mast-links a{font-size:12px;color:#64748b;font-weight:500}.mast-links a:hover{color:#0891b2}
-/* header */
-.site-header{text-align:center;padding:28px 24px 20px;border-bottom:3px double #cbd5e1}
-.site-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(28px,5vw,56px);font-weight:700;letter-spacing:-1px;color:#0f172a;line-height:1}
-.site-tagline{font-size:14px;color:#64748b;margin-top:8px;font-style:italic}
-.site-nav{display:flex;justify-content:center;gap:28px;padding:14px 24px;border-bottom:1px solid #cbd5e1}
-.site-nav a{font-size:13px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:1px;transition:color .2s}.site-nav a:hover{color:#0891b2}
-/* hero layout */
-.hero{max-width:1160px;margin:32px auto;padding:0 24px;display:grid;grid-template-columns:2fr 1fr;gap:32px}
-.hero-main{border-right:1px solid #cbd5e1;padding-right:32px}
-.hero-img{width:100%;height:340px;object-fit:cover;display:block;margin-bottom:16px}
-.hero-img-ph{width:100%;height:340px;background:#f1f5f9;display:block;margin-bottom:16px}
-.hero-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0891b2;margin-bottom:8px}
-.hero-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(22px,3vw,36px);font-weight:700;line-height:1.2;color:#0f172a;margin-bottom:12px}
-.hero-body{font-size:15px;color:#64748b;line-height:1.8;margin-bottom:12px}
-.hero-byline{font-size:12px;color:#64748b;border-top:1px solid #cbd5e1;padding-top:10px}
-/* sidebar list */
-.sidebar-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#64748b;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #0f172a}
-.side-list-item{padding:14px 0;border-bottom:1px solid #cbd5e1;cursor:pointer}
-.sli-num{font-size:12px;font-weight:700;color:#0891b2;margin-bottom:4px}
-.sli-title{font-family:'Libre Baskerville',Georgia,serif;font-size:15px;font-weight:700;line-height:1.3;color:#0f172a;margin-bottom:4px}
-.sli-date{font-size:11px;color:#64748b}
-/* divider section */
-.divider-row{max-width:1160px;margin:0 auto;padding:0 24px;border-top:3px double #cbd5e1;border-bottom:3px double #cbd5e1;display:flex;align-items:center;justify-content:space-between;padding-top:10px;padding-bottom:10px;margin-bottom:32px}
-.divider-tag{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0891b2}
-/* article grid */
-.article-section{max-width:1160px;margin:0 auto;padding:0 24px 48px}
-.art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.art-card{cursor:pointer;padding-bottom:20px;border-bottom:1px solid #cbd5e1}
-.art-card img{width:100%;height:180px;object-fit:cover;display:block;margin-bottom:12px}
-.art-card-ph{width:100%;height:180px;background:#f1f5f9;display:block;margin-bottom:12px}
-.art-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#0891b2;margin-bottom:6px}
-.art-title{font-family:'Libre Baskerville',Georgia,serif;font-size:17px;font-weight:700;line-height:1.3;color:#0f172a;margin-bottom:8px}
-.art-desc{font-size:14px;color:#64748b;line-height:1.65}
-.art-date{font-size:11px;color:#64748b;margin-top:8px}
+.masthead{text-align:center;padding:32px 24px 24px;border-bottom:3px solid #0f172a}
+.site-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(32px,6vw,64px);font-weight:700;letter-spacing:-2px;color:#0f172a;line-height:1}
+.site-tagline{font-size:14px;color:#64748b;margin-top:10px;font-style:italic;letter-spacing:.3px}
+/* nav */
+.site-nav{display:flex;justify-content:center;gap:32px;padding:12px 24px;border-bottom:1px solid #cbd5e1;background:#fafafa}
+.site-nav a{font-size:12px;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:1.5px;transition:color .2s}.site-nav a:hover{color:#0891b2}
+/* main layout: hero left, articles right */
+.main-wrap{max-width:1200px;margin:36px auto 0;padding:0 28px;display:grid;grid-template-columns:1fr 340px;gap:40px;border-bottom:1px solid #cbd5e1;padding-bottom:40px}
+/* hero - left */
+.feat-label{font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#0891b2;margin-bottom:10px}
+.feat-img{width:100%;height:340px;object-fit:cover;display:block;margin-bottom:18px;background:#f1f5f9}
+.feat-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(22px,2.8vw,34px);font-weight:700;line-height:1.2;color:#0f172a;margin-bottom:12px}
+.feat-title a{color:inherit}.feat-title a:hover{color:#0891b2}
+.feat-body{font-size:15px;color:#64748b;line-height:1.85;margin-bottom:14px}
+.feat-byline{font-size:12px;color:#64748b;padding-top:12px;border-top:1px solid #cbd5e1}
+/* article list - right column */
+.art-list-hd{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0f172a;padding-bottom:10px;border-bottom:2px solid #0f172a;margin-bottom:0}
+.art-list-item{display:grid;grid-template-columns:88px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid #cbd5e1;cursor:pointer;transition:background .1s}
+.art-list-item:hover .ali-title{color:#0891b2}
+.ali-img{width:88px;height:64px;object-fit:cover;display:block;background:#f1f5f9}
+.ali-body{display:flex;flex-direction:column;justify-content:center}
+.ali-cat{font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#0891b2;margin-bottom:4px}
+.ali-title{font-family:'Libre Baskerville',Georgia,serif;font-size:13px;font-weight:700;line-height:1.3;color:#0f172a}
+.ali-date{font-size:10px;color:#64748b;margin-top:4px}
+/* more grid */
+.more-section{max-width:1200px;margin:0 auto;padding:36px 28px 0}
+.more-hd{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0f172a;padding-bottom:10px;border-bottom:2px solid #0f172a;margin-bottom:24px}
+.more-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-bottom:48px}
+.more-card{cursor:pointer}
+.more-card img{width:100%;height:170px;object-fit:cover;display:block;margin-bottom:12px;background:#f1f5f9}
+.more-card-ph{width:100%;height:170px;background:#f1f5f9;display:block;margin-bottom:12px}
+.more-cat{font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#0891b2;margin-bottom:6px}
+.more-title{font-family:'Libre Baskerville',Georgia,serif;font-size:16px;font-weight:700;line-height:1.3;color:#0f172a;margin-bottom:6px}
+.more-title:hover{color:#0891b2}
+.more-desc{font-size:13px;color:#64748b;line-height:1.6}
 /* newsletter */
-.nl-section{background:#f1f5f9;border-top:1px solid #cbd5e1;border-bottom:1px solid #cbd5e1;padding:48px 24px;text-align:center}
-.nl-section h2{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(20px,3vw,30px);font-weight:700;margin-bottom:10px}
+.nl-section{background:#fafafa;border-top:1px solid #cbd5e1;border-bottom:1px solid #cbd5e1;padding:52px 24px;text-align:center}
+.nl-section h2{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(20px,3vw,30px);font-weight:700;margin-bottom:10px;color:#0f172a}
 .nl-section p{color:#64748b;font-size:15px;margin-bottom:24px;max-width:480px;margin-left:auto;margin-right:auto}
-.nl-row{display:flex;gap:10px;justify-content:center;max-width:440px;margin:0 auto}
-.nl-input{flex:1;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;padding:12px 16px;font-size:14px;outline:none}
-.nl-input:focus{border-color:#0891b2}
-.nl-btn{background:#0f172a;color:#f8fafc;border:none;padding:12px 24px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap}
-.nl-btn:hover{background:#0891b2}
+.nl-row{display:flex;gap:0;justify-content:center;max-width:420px;margin:0 auto;border:1px solid #cbd5e1}
+.nl-input{flex:1;border:none;background:#fff;color:#0f172a;padding:12px 16px;font-size:14px;outline:none}
+.nl-btn{background:#0891b2;color:#fff;border:none;padding:12px 22px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .2s}
+.nl-btn:hover{background:#0e7490}
 /* footer */
-.foot{max-width:1160px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:#64748b}
+.foot{max-width:1200px;margin:0 auto;padding:20px 28px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:#64748b}
 .foot-links{display:flex;gap:20px}.foot-links a{color:#64748b}.foot-links a:hover{color:#0891b2}
-@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-main{border-right:none;padding-right:0}.art-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:600px){.art-grid{grid-template-columns:1fr}.site-nav{flex-wrap:wrap;gap:12px}.nl-row{flex-direction:column}.foot{flex-direction:column;text-align:center}}
+@media(max-width:900px){.main-wrap{grid-template-columns:1fr}.more-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.more-grid{grid-template-columns:1fr}.site-nav{flex-wrap:wrap;gap:10px}.nl-row{flex-direction:column;border:none;gap:8px}.nl-input{border:1px solid #cbd5e1}.foot{flex-direction:column;text-align:center}}
 </style>
 </head>
 <body>
 
-<div class="masthead">
-  <div class="masthead-inner">
-    <span class="mast-date" id="mast-date"></span>
-    <div class="mast-links">
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="topbar-date" id="topbar-date"></span>
+    <div class="topbar-links">
       <a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy</a>
     </div>
   </div>
 </div>
 
-<div class="site-header">
+<div class="masthead">
   <div class="site-title">Insight Insure</div>
   <div class="site-tagline">Insurance Advice in Plain Language</div>
 </div>
@@ -86,27 +87,25 @@ a{color:inherit;text-decoration:none}
   <a href="privacy.html">Policy</a>
 </nav>
 
-<div class="hero">
-  <div class="hero-main">
-    <div class="hero-label">Insurance</div>
-    <img id="pxl-img" class="hero-img" alt="Insight Insure" style="opacity:0;transition:opacity .8s">
-    <h1 class="hero-title" id="hero-title">Insurance Advice in Plain Language</h1>
-    <p class="hero-body" id="hero-desc">Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.</p>
-    <div class="hero-byline" id="hero-byline">By Patrick Lane · Independent Insurance Broker & Consumer Advocate</div>
+<div class="main-wrap">
+  <!-- Featured article: LEFT -->
+  <div class="feat-col">
+    <div class="feat-label">Insurance</div>
+    <img id="pxl-img" class="feat-img" alt="Insight Insure" style="opacity:0;transition:opacity .8s">
+    <h1 class="feat-title" id="feat-title"><a href="#">Insurance Advice in Plain Language</a></h1>
+    <p class="feat-body" id="feat-desc">Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.</p>
+    <div class="feat-byline" id="feat-byline">By Patrick Lane · Independent Insurance Broker & Consumer Advocate</div>
   </div>
-  <div class="hero-side">
-    <div class="sidebar-label">More Stories</div>
-    <div id="side-list"></div>
+  <!-- Article list: RIGHT -->
+  <div class="art-col">
+    <div class="art-list-hd">Latest Articles</div>
+    <div id="art-list"></div>
   </div>
 </div>
 
-<div class="divider-row">
-  <span class="divider-tag">Insurance Coverage</span>
-  <span style="font-size:11px;color:#64748b">Updated regularly · Insight Insure</span>
-</div>
-
-<div class="article-section">
-  <div class="art-grid" id="art-grid"></div>
+<div class="more-section">
+  <div class="more-hd">More Coverage</div>
+  <div class="more-grid" id="more-grid"></div>
 </div>
 
 <div class="nl-section">
@@ -120,39 +119,49 @@ a{color:inherit;text-decoration:none}
   </form>
 </div>
 
-<div class="foot">
+<footer class="foot">
   <span>© Insight Insure · Independent insurance guidance from a broker with no carrier allegiances.</span>
   <div class="foot-links">
     <a href="./">Home</a><a href="about.html">About</a>
     <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
   </div>
-</div>
+</footer>
 
 <script>
-document.getElementById('mast-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+document.getElementById('topbar-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
 
 async function loadPosts(){
   try{
     var r=await fetch('./articles.json');if(!r.ok)throw 0;
     var posts=await r.json();if(!posts||!posts.length)throw 0;
     var h=posts[0];
-    if(h.image){var hi=document.getElementById('pxl-img');if(hi){hi.className='hero-img';hi.onload=function(){hi.style.opacity='1';};hi.src=h.image;}}
-    var ht=document.getElementById('hero-title'),hd=document.getElementById('hero-desc'),hb=document.getElementById('hero-byline');
-    if(ht)ht.innerHTML='<a href="./'+h.slug+'/" style="color:inherit">'+h.title+'</a>';
-    if(hd)hd.textContent=h.meta_description||'';
-    if(hb)hb.textContent='By '+(h.author||'Patrick Lane')+(h.date_iso?' · '+h.date_iso:'');
-    /* side list */
-    var sl=document.getElementById('side-list');
-    if(sl)sl.innerHTML=posts.slice(1,6).map(function(p,i){return '<a href="./'+p.slug+'/" style="display:block"><div class="side-list-item"><div class="sli-num">0'+(i+2)+'</div><div class="sli-title">'+p.title+'</div><div class="sli-date">'+(p.date_iso||'')+'</div></div></a>';}).join('');
-    /* art grid */
-    var ag=document.getElementById('art-grid');
-    if(ag)ag.innerHTML=posts.slice(6,9).map(function(p){return '<a href="./'+p.slug+'/" style="display:block"><div class="art-card">'+(p.image?'<img src="'+p.image+'" alt="'+p.title+'" loading="lazy">':'<div class="art-card-ph"></div>')+'<div class="art-label">Insurance</div><div class="art-title">'+p.title+'</div><div class="art-desc">'+(p.meta_description||'').slice(0,120)+'</div><div class="art-date">'+(p.date_iso||'')+'</div></div></a>';}).join('');
+    /* featured */
+    if(h.image){var hi=document.getElementById('pxl-img');if(hi){hi.onload=function(){hi.style.opacity='1';};hi.src=h.image;}}
+    var ft=document.getElementById('feat-title'),fd=document.getElementById('feat-desc'),fb=document.getElementById('feat-byline');
+    if(ft)ft.innerHTML='<a href="./'+h.slug+'/" style="color:inherit">'+h.title+'</a>';
+    if(fd)fd.textContent=h.meta_description||'';
+    if(fb)fb.textContent='By '+(h.author||'Patrick Lane')+(h.date_iso?' · '+h.date_iso:'');
+    /* article list - right column, posts 1-5 */
+    var al=document.getElementById('art-list');
+    if(al)al.innerHTML=posts.slice(1,6).map(function(p){
+      return '<a href="./'+p.slug+'/" style="display:block"><div class="art-list-item">'+
+        (p.image?'<img class="ali-img" src="'+p.image+'" alt="'+p.title+'" loading="lazy">':'<div class="ali-img"></div>')+
+        '<div class="ali-body"><div class="ali-cat">Insurance</div><div class="ali-title">'+p.title+'</div><div class="ali-date">'+(p.date_iso||'')+'</div></div></div></a>';
+    }).join('');
+    /* more grid - posts 6+ */
+    var mg=document.getElementById('more-grid');
+    if(mg)mg.innerHTML=posts.slice(6,9).map(function(p){
+      return '<a href="./'+p.slug+'/" style="display:block"><div class="more-card">'+
+        (p.image?'<img src="'+p.image+'" alt="'+p.title+'" loading="lazy">':'<div class="more-card-ph"></div>')+
+        '<div class="more-cat">Insurance</div><div class="more-title">'+p.title+'</div><div class="more-desc">'+(p.meta_description||'').slice(0,120)+'</div></div></a>';
+    }).join('');
+    if(!posts[6])document.querySelector('.more-section').style.display='none';
   }catch(e){
-    var ag2=document.getElementById('art-grid');
-    if(ag2)ag2.innerHTML='<div class="art-card"><div class="art-card-ph"></div><div class="art-label">Insurance</div><div class="art-title">First articles arriving soon</div><div class="art-desc">Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.</div></div>';
+    var al2=document.getElementById('art-list');
+    if(al2)al2.innerHTML='<div class="art-list-item"><div class="ali-img"></div><div class="ali-body"><div class="ali-cat">Insurance</div><div class="ali-title">First articles arriving soon</div></div></div>';
   }
 }
-function nlSub(e){e.preventDefault();document.getElementById('nl-f').innerHTML='<p style="color:#0891b2;font-weight:700;font-size:15px;padding:12px 0">✓ Subscribed. Welcome.</p>';}
+function nlSub(e){e.preventDefault();document.getElementById('nl-f').innerHTML='<p style="color:#0891b2;font-weight:700;font-size:15px;padding:12px 0">Subscribed. Welcome.</p>';}
 loadPosts();
 /* banner loader: pexels → picsum fallback */
 (function(){
@@ -168,10 +177,10 @@ loadPosts();
     fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('insurance documents financial planning office')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
       .then(function(r){return r.json();}).then(function(d){
         if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
-        else{showImg('https://picsum.photos/seed/888/1400/400','');}
-      }).catch(function(){showImg('https://picsum.photos/seed/888/1400/400','');});
+        else{showImg('https://picsum.photos/seed/810/1400/400','');}
+      }).catch(function(){showImg('https://picsum.photos/seed/810/1400/400','');});
   }else{
-    showImg('https://picsum.photos/seed/888/1400/400','');
+    showImg('https://picsum.photos/seed/810/1400/400','');
   }
 })();
 </script>
