@@ -1,524 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>insight-insure | Insurance Advice & Comparisons</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #0d9488;
-            --secondary-color: #14b8a6;
-            --accent-color: #f97316;
-            --text-main: #1e293b;
-            --text-light: #64748b;
-            --bg-body: #f0fdfa;
-            --bg-white: #ffffff;
-            --border-color: #ccfbf1;
-            --font-family: 'Inter', system-ui, -apple-system, sans-serif;
-            --font-heading: 'Merriweather', Georgia, serif;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: var(--font-family);
-            background-color: var(--bg-body);
-            color: var(--text-main);
-            line-height: 1.6;
-        }
-
-        a {
-            color: var(--secondary-color);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        a:hover {
-            color: var(--primary-color);
-            text-decoration: underline;
-        }
-
-        header {
-            background-color: var(--bg-white);
-            border-bottom: 1px solid var(--border-color);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 2px 8px rgba(13, 148, 136, 0.08);
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-family: var(--font-heading);
-            font-size: 1.5rem;
-            font-weight: 800;
-            color: var(--primary-color);
-            text-decoration: none !important;
-        }
-
-        .logo span {
-            color: var(--accent-color);
-        }
-
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        .nav-links a {
-            color: var(--text-main);
-            font-weight: 600;
-            font-size: 0.95rem;
-            text-decoration: none;
-        }
-
-        .nav-links a:hover {
-            color: var(--secondary-color);
-        }
-
-        .btn-quote {
-            background-color: var(--accent-color);
-            color: #fff !important;
-            padding: 0.6rem 1.2rem;
-            border-radius: 6px;
-            font-weight: 600;
-            text-decoration: none !important;
-            transition: background 0.2s;
-        }
-
-        .btn-quote:hover {
-            background-color: #ea580c;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-            display: grid;
-            grid-template-columns: 1fr 350px;
-            gap: 3rem;
-        }
-
-        .article-list {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-        }
-
-        .article-card {
-            background: var(--bg-white);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(13, 148, 136, 0.08);
-            border-left: 4px solid var(--primary-color);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .article-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 16px -2px rgba(13, 148, 136, 0.12);
-        }
-
-        .article-card h2 {
-            font-family: var(--font-heading);
-            font-size: 1.3rem;
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-            line-height: 1.3;
-        }
-
-        .article-card h2 a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .article-card h2 a:hover {
-            color: var(--secondary-color);
-            text-decoration: none;
-        }
-
-        .article-card .excerpt {
-            color: var(--text-light);
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-        }
-
-        .article-card .meta {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            font-size: 0.85rem;
-            color: var(--text-light);
-        }
-
-        .article-card .category {
-            background-color: var(--bg-body);
-            color: var(--primary-color);
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.8rem;
-        }
-
-        .page-header {
-            background: var(--bg-white);
-            padding: 2rem;
-            border-radius: 8px;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 4px 6px -1px rgba(13, 148, 136, 0.08);
-        }
-
-        .page-header h1 {
-            font-family: var(--font-heading);
-            font-size: 2rem;
-            color: var(--primary-color);
-            margin-bottom: 0.5rem;
-        }
-
-        .page-header p {
-            color: var(--text-light);
-            font-size: 1.05rem;
-        }
-
-        aside {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
-
-        .widget {
-            background: var(--bg-white);
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(13, 148, 136, 0.08);
-        }
-
-        .widget h3 {
-            font-family: var(--font-heading);
-            font-size: 1.2rem;
-            margin-bottom: 1rem;
-            color: var(--primary-color);
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 0.5rem;
-        }
-
-        .top-articles {
-            list-style: none;
-            padding: 0;
-        }
-
-        .top-articles li {
-            margin-bottom: 1rem;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 1rem;
-        }
-        
-        .top-articles li:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-
-        .top-articles a {
-            font-weight: 600;
-            color: var(--text-main);
-            display: block;
-            margin-bottom: 0.2rem;
-        }
-
-        .cta-widget {
-            background: linear-gradient(135deg, var(--primary-color) 0%, #0f766e 100%);
-            color: white;
-            text-align: center;
-        }
-
-        .cta-widget h3 {
-            color: white;
-            border-color: rgba(255,255,255,0.2);
-        }
-
-        .cta-widget p {
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-            opacity: 0.9;
-        }
-
-        .cta-widget .btn-quote {
-            display: block;
-            background-color: var(--bg-white);
-            color: var(--primary-color) !important;
-        }
-
-        .cta-widget .btn-quote:hover {
-            background-color: var(--bg-body);
-        }
-
-        .about-widget {
-            border-top: 4px solid var(--accent-color);
-        }
-
-        .about-widget .author-info {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .about-widget .author-avatar {
-            width: 50px;
-            height: 50px;
-            background-color: var(--primary-color);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: 700;
-            font-size: 1.2rem;
-        }
-
-        .about-widget .author-name {
-            font-weight: 700;
-            color: var(--text-main);
-        }
-
-        .about-widget .author-title {
-            font-size: 0.85rem;
-            color: var(--text-light);
-        }
-
-        footer {
-            background-color: #134e4a;
-            color: #99f6e4;
-            padding: 3rem 2rem;
-            margin-top: 4rem;
-            text-align: center;
-            font-size: 0.85rem;
-        }
-
-        .disclaimer {
-            max-width: 800px;
-            margin: 0 auto 1rem;
-            padding: 1rem;
-            border: 1px solid #2dd4bf;
-            border-radius: 4px;
-            background-color: rgba(255,255,255,0.05);
-        }
-
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: var(--text-light);
-        }
-
-        .loading-spinner {
-            width: 40px;
-            height: 40px;
-            border: 3px solid var(--border-color);
-            border-top-color: var(--primary-color);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-
-        .mobile-menu-btn {
-            display: none;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            color: var(--primary-color);
-            cursor: pointer;
-        }
-
-        @media (max-width: 992px) {
-            .container {
-                grid-template-columns: 1fr;
-            }
-            .nav-links {
-                display: none;
-            }
-            .mobile-menu-btn {
-                display: block;
-            }
-        }
-        
-        @media (max-width: 600px) {
-            .nav-container {
-                padding: 1rem;
-            }
-            .container {
-                padding: 0 1rem;
-            }
-            .page-header {
-                padding: 1.5rem;
-            }
-            .page-header h1 {
-                font-size: 1.5rem;
-            }
-            .article-card {
-                padding: 1.25rem;
-            }
-            .article-card h2 {
-                font-size: 1.1rem;
-            }
-        }
-    </style>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insight Insure — Insurance Advice in Plain Language</title>
+<meta name="description" content="Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',system-ui,sans-serif;background:#f8fafc;color:#0f172a;font-size:16px;line-height:1.7}
+a{color:inherit;text-decoration:none}
+/* masthead */
+.masthead{border-bottom:1px solid #cbd5e1;padding:10px 0;background:#f1f5f9}
+.masthead-inner{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+.mast-date{font-size:11px;color:#64748b}
+.mast-links{display:flex;gap:20px}.mast-links a{font-size:12px;color:#64748b;font-weight:500}.mast-links a:hover{color:#0891b2}
+/* header */
+.site-header{text-align:center;padding:28px 24px 20px;border-bottom:3px double #cbd5e1}
+.site-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(28px,5vw,56px);font-weight:700;letter-spacing:-1px;color:#0f172a;line-height:1}
+.site-tagline{font-size:14px;color:#64748b;margin-top:8px;font-style:italic}
+.site-nav{display:flex;justify-content:center;gap:28px;padding:14px 24px;border-bottom:1px solid #cbd5e1}
+.site-nav a{font-size:13px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:1px;transition:color .2s}.site-nav a:hover{color:#0891b2}
+/* hero layout */
+.hero{max-width:1160px;margin:32px auto;padding:0 24px;display:grid;grid-template-columns:2fr 1fr;gap:32px}
+.hero-main{border-right:1px solid #cbd5e1;padding-right:32px}
+.hero-img{width:100%;height:340px;object-fit:cover;display:block;margin-bottom:16px}
+.hero-img-ph{width:100%;height:340px;background:#f1f5f9;display:block;margin-bottom:16px}
+.hero-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0891b2;margin-bottom:8px}
+.hero-title{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(22px,3vw,36px);font-weight:700;line-height:1.2;color:#0f172a;margin-bottom:12px}
+.hero-body{font-size:15px;color:#64748b;line-height:1.8;margin-bottom:12px}
+.hero-byline{font-size:12px;color:#64748b;border-top:1px solid #cbd5e1;padding-top:10px}
+/* sidebar list */
+.sidebar-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#64748b;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #0f172a}
+.side-list-item{padding:14px 0;border-bottom:1px solid #cbd5e1;cursor:pointer}
+.sli-num{font-size:12px;font-weight:700;color:#0891b2;margin-bottom:4px}
+.sli-title{font-family:'Libre Baskerville',Georgia,serif;font-size:15px;font-weight:700;line-height:1.3;color:#0f172a;margin-bottom:4px}
+.sli-date{font-size:11px;color:#64748b}
+/* divider section */
+.divider-row{max-width:1160px;margin:0 auto;padding:0 24px;border-top:3px double #cbd5e1;border-bottom:3px double #cbd5e1;display:flex;align-items:center;justify-content:space-between;padding-top:10px;padding-bottom:10px;margin-bottom:32px}
+.divider-tag{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#0891b2}
+/* article grid */
+.article-section{max-width:1160px;margin:0 auto;padding:0 24px 48px}
+.art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.art-card{cursor:pointer;padding-bottom:20px;border-bottom:1px solid #cbd5e1}
+.art-card img{width:100%;height:180px;object-fit:cover;display:block;margin-bottom:12px}
+.art-card-ph{width:100%;height:180px;background:#f1f5f9;display:block;margin-bottom:12px}
+.art-label{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#0891b2;margin-bottom:6px}
+.art-title{font-family:'Libre Baskerville',Georgia,serif;font-size:17px;font-weight:700;line-height:1.3;color:#0f172a;margin-bottom:8px}
+.art-desc{font-size:14px;color:#64748b;line-height:1.65}
+.art-date{font-size:11px;color:#64748b;margin-top:8px}
+/* newsletter */
+.nl-section{background:#f1f5f9;border-top:1px solid #cbd5e1;border-bottom:1px solid #cbd5e1;padding:48px 24px;text-align:center}
+.nl-section h2{font-family:'Libre Baskerville',Georgia,serif;font-size:clamp(20px,3vw,30px);font-weight:700;margin-bottom:10px}
+.nl-section p{color:#64748b;font-size:15px;margin-bottom:24px;max-width:480px;margin-left:auto;margin-right:auto}
+.nl-row{display:flex;gap:10px;justify-content:center;max-width:440px;margin:0 auto}
+.nl-input{flex:1;border:1px solid #cbd5e1;background:#f8fafc;color:#0f172a;padding:12px 16px;font-size:14px;outline:none}
+.nl-input:focus{border-color:#0891b2}
+.nl-btn{background:#0f172a;color:#f8fafc;border:none;padding:12px 24px;font-size:14px;font-weight:700;cursor:pointer;white-space:nowrap}
+.nl-btn:hover{background:#0891b2}
+/* footer */
+.foot{max-width:1160px;margin:0 auto;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-size:12px;color:#64748b}
+.foot-links{display:flex;gap:20px}.foot-links a{color:#64748b}.foot-links a:hover{color:#0891b2}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.hero-main{border-right:none;padding-right:0}.art-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.art-grid{grid-template-columns:1fr}.site-nav{flex-wrap:wrap;gap:12px}.nl-row{flex-direction:column}.foot{flex-direction:column;text-align:center}}
+</style>
 </head>
 <body>
 
-    <header>
-        <div class="nav-container">
-            <a href="index.html" class="logo">insight<span>-insure</span></a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Auto</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Life</a></li>
-                    <li><a href="#">Health</a></li>
-                    <li><a href="#">Comparisons</a></li>
-                </ul>
-            </nav>
-            <button class="mobile-menu-btn">☰</button>
-            <a href="#" class="btn-quote">Get Free Quotes</a>
-        </div>
-    </header>
-
-    <div class="container">
-        <main>
-            <div class="page-header">
-                <h1>Insurance Advice & Comparisons</h1>
-                <p>Straight talk about insurance—no confusing jargon, no hidden agendas. Just honest advice to help you make smart choices.</p>
-            </div>
-            
-            <div class="article-list" id="article-list">
-                <div class="loading">
-                    <div class="loading-spinner"></div>
-                    <p>Loading articles...</p>
-                </div>
-            </div>
-        </main>
-
-        <aside>
-            <div class="widget cta-widget">
-                <h3>Compare Rates Instantly</h3>
-                <p>Stop overpaying for coverage. See what top insurers will charge you—it takes 2 minutes.</p>
-                <a href="#" class="btn-quote">Start Comparison</a>
-            </div>
-
-            <div class="widget about-widget">
-                <h3>About Us</h3>
-                <div class="author-info">
-                    <div class="author-avatar">TE</div>
-                    <div>
-                        <div class="author-name">The Editor</div>
-                        <div class="author-title"></div>
-                    </div>
-                </div>
-                <p style="font-size: 0.9rem; color: var(--text-light);">We explain insurance like a broker who actually wants you to understand what you're buying. No fine print tricks, no industry double-speak.</p>
-            </div>
-
-            <div class="widget">
-                <h3>Popular Topics</h3>
-                <ul class="top-articles">
-                    <li>
-                        <a href="#">How Much Car Insurance Do You Actually Need?</a>
-                        <span style="font-size: 0.8rem; color: var(--text-light);">5 min read</span>
-                    </li>
-                    <li>
-                        <a href="#">Term vs. Whole Life: The Real Difference</a>
-                        <span style="font-size: 0.8rem; color: var(--text-light);">7 min read</span>
-                    </li>
-                    <li>
-                        <a href="#">What Your Home Insurance Doesn't Cover</a>
-                        <span style="font-size: 0.8rem; color: var(--text-light);">4 min read</span>
-                    </li>
-                    <li>
-                        <a href="#">Deductibles Explained (Finally, in Plain English)</a>
-                        <span style="font-size: 0.8rem; color: var(--text-light);">6 min read</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="widget">
-                <h3>Insurance Glossary</h3>
-                <p style="font-size: 0.9rem; margin-bottom: 1rem;">Confused by insurance terms? We translated them into normal human language.</p>
-                <a href="#" style="font-weight: 600; font-size: 0.9rem;">Browse Glossary &rarr;</a>
-            </div>
-        </aside>
+<div class="masthead">
+  <div class="masthead-inner">
+    <span class="mast-date" id="mast-date"></span>
+    <div class="mast-links">
+      <a href="./">Home</a><a href="about.html">About</a><a href="privacy.html">Privacy</a>
     </div>
+  </div>
+</div>
 
-    <footer>
-        <div class="disclaimer">
-            <strong>Editorial Disclaimer:</strong> Everything on this site is for educational purposes only—it's not financial, legal, or insurance advice. Insurance rates and policies vary wildly based on your situation. Always talk to a licensed agent before buying anything. We may earn a commission if you click links or get quotes through our site, but that never influences our recommendations.
-        </div>
-        <p>&copy; 2025 insight-insure | Insurance Advice & Comparisons. All rights reserved.</p>
-    </footer>
+<div class="site-header">
+  <div class="site-title">Insight Insure</div>
+  <div class="site-tagline">Insurance Advice in Plain Language</div>
+</div>
 
-    <script>
-        async function loadPosts() {
-            const articleList = document.getElementById('article-list');
-            
-            try {
-                const response = await fetch('articles.json');
-                
-                if (!response.ok) {
-                    throw new Error('Could not load articles');
-                }
-                
-                const articles = await response.json();
-                
-                if (articles.length === 0) {
-                    articleList.innerHTML = '<p style="text-align: center; color: var(--text-light); padding: 2rem;">No articles yet. Check back soon!</p>';
-                    return;
-                }
-                
-                articleList.innerHTML = articles.map(article => `
-                    <article class="article-card">
-                        <h2><a href="${article.slug}.html">${article.title}</a></h2>
-                        <p class="excerpt">${article.excerpt || ''}</p>
-                        <div class="meta">
-                            <span class="category">${article.category || 'Insurance Advice'}</span>
-                            <span>${article.date || ''}</span>
-                            <span>${article.readTime || '5 min read'}</span>
-                        </div>
-                    </article>
-                `).join('');
-                
-            } catch (error) {
-                articleList.innerHTML = `
-                    <div class="article-card">
-                        <h2>Welcome to insight-insure</h2>
-                        <p class="excerpt">We're here to help you understand insurance without the confusing jargon. New articles coming soon—straight talk about auto, home, life, and health insurance.</p>
-                        <div class="meta">
-                            <span class="category">Getting Started</span>
-                        </div>
-                    </div>
-                `;
-            }
-        }
-        
-        document.addEventListener('DOMContentLoaded', loadPosts);
-    </script>
+<nav class="site-nav">
+  <a href="./">Insurance</a>
+  <a href="about.html">About</a>
+  <a href="privacy.html">Policy</a>
+</nav>
 
-</body>
-</html>
+<div class="hero">
+  <div class="hero-main">
+    <div class="hero-label">Insurance</div>
+    <img id="pxl-img" class="hero-img" alt="Insight Insure" style="opacity:0;transition:opacity .8s">
+    <h1 class="hero-title" id="hero-title">Insurance Advice in Plain Language</h1>
+    <p class="hero-body" id="hero-desc">Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.</p>
+    <div class="hero-byline" id="hero-byline">By Patrick Lane · Independent Insurance Broker & Consumer Advocate</div>
+  </div>
+  <div class="hero-side">
+    <div class="sidebar-label">More Stories</div>
+    <div id="side-list"></div>
+  </div>
+</div>
+
+<div class="divider-row">
+  <span class="divider-tag">Insurance Coverage</span>
+  <span style="font-size:11px;color:#64748b">Updated regularly · Insight Insure</span>
+</div>
+
+<div class="article-section">
+  <div class="art-grid" id="art-grid"></div>
+</div>
+
+<div class="nl-section">
+  <h2>The Insure Brief</h2>
+  <p>Monthly insurance updates and coverage advice in plain English.</p>
+  <form id="nl-f" onsubmit="nlSub(event)">
+    <div class="nl-row">
+      <input class="nl-input" type="email" placeholder="your@email.com" required>
+      <button class="nl-btn" type="submit">Subscribe</button>
+    </div>
+  </form>
+</div>
+
+<div class="foot">
+  <span>© Insight Insure · Independent insurance guidance from a broker with no carrier allegiances.</span>
+  <div class="foot-links">
+    <a href="./">Home</a><a href="about.html">About</a>
+    <a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+  </div>
+</div>
+
+<script>
+document.getElementById('mast-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric'});
+
+async function loadPosts(){
+  try{
+    var r=await fetch('./articles.json');if(!r.ok)throw 0;
+    var posts=await r.json();if(!posts||!posts.length)throw 0;
+    var h=posts[0];
+    if(h.image){var hi=document.getElementById('pxl-img');if(hi){hi.className='hero-img';hi.onload=function(){hi.style.opacity='1';};hi.src=h.image;}}
+    var ht=document.getElementById('hero-title'),hd=document.getElementById('hero-desc'),hb=document.getElementById('hero-byline');
+    if(ht)ht.innerHTML='<a href="./'+h.slug+'/" style="color:inherit">'+h.title+'</a>';
+    if(hd)hd.textContent=h.meta_description||'';
+    if(hb)hb.textContent='By '+(h.author||'Patrick Lane')+(h.date_iso?' · '+h.date_iso:'');
+    /* side list */
+    var sl=document.getElementById('side-list');
+    if(sl)sl.innerHTML=posts.slice(1,6).map(function(p,i){return '<a href="./'+p.slug+'/" style="display:block"><div class="side-list-item"><div class="sli-num">0'+(i+2)+'</div><div class="sli-title">'+p.title+'</div><div class="sli-date">'+(p.date_iso||'')+'</div></div></a>';}).join('');
+    /* art grid */
+    var ag=document.getElementById('art-grid');
+    if(ag)ag.innerHTML=posts.slice(6,9).map(function(p){return '<a href="./'+p.slug+'/" style="display:block"><div class="art-card">'+(p.image?'<img src="'+p.image+'" alt="'+p.title+'" loading="lazy">':'<div class="art-card-ph"></div>')+'<div class="art-label">Insurance</div><div class="art-title">'+p.title+'</div><div class="art-desc">'+(p.meta_description||'').slice(0,120)+'</div><div class="art-date">'+(p.date_iso||'')+'</div></div></a>';}).join('');
+  }catch(e){
+    var ag2=document.getElementById('art-grid');
+    if(ag2)ag2.innerHTML='<div class="art-card"><div class="art-card-ph"></div><div class="art-label">Insurance</div><div class="art-title">First articles arriving soon</div><div class="art-desc">Insurance explained honestly - coverage comparisons, fine print decoded, and the policies you actually need.</div></div>';
+  }
+}
+function nlSub(e){e.preventDefault();document.getElementById('nl-f').innerHTML='<p style="color:#0891b2;font-weight:700;font-size:15px;padding:12px 0">✓ Subscribed. Welcome.</p>';}
+loadPosts();
+/* banner loader: pexels → picsum fallback */
+(function(){
+  var el=document.getElementById('pxl-img');
+  var cr=document.getElementById('pxl-cred');
+  if(!el)return;
+  function showImg(src,cred){
+    el.onload=function(){el.style.opacity='1';if(cred&&cr){cr.textContent=cred;cr.style.opacity='1';}};
+    el.src=src;
+  }
+  var k=localStorage.getItem('pexelsKey');
+  if(k){
+    fetch('https://api.pexels.com/v1/search?query='+encodeURIComponent('insurance documents financial planning office')+'&per_page=5&orientation=landscape',{headers:{Authorization:k}})
+      .then(function(r){return r.json();}).then(function(d){
+        if(d.photos&&d.photos[0]){showImg(d.photos[0].src.large,'Photo: Pexels');}
+        else{showImg('https://picsum.photos/seed/888/1400/400','');}
+      }).catch(function(){showImg('https://picsum.photos/seed/888/1400/400','');});
+  }else{
+    showImg('https://picsum.photos/seed/888/1400/400','');
+  }
+})();
+</script>
+</body></html>
