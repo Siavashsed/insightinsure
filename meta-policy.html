@@ -366,7 +366,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
         <ul class="foot-links">
           <li><a href="./privacy.html">Privacy Policy</a></li>
           <li><a href="./terms.html">Terms of Use</a></li>
-          <li><a href="#">Disclaimer</a></li>
+          <li><a href="./meta-policy.html">Disclaimer</a></li>
         </ul>
       </div>
     </div>
@@ -452,17 +452,16 @@ function updateCounts() {
   Object.entries(counts).forEach(([k,v])=>{const el=document.getElementById('cnt-'+k);if(el)el.textContent=v||'0';});
 }
 
-const PLACEHOLDER_ARTS = [
-  {slug:'car-insurance-quotes-comparison',_tag:'auto',category:'Auto',title:'How to Actually Compare Car Insurance Quotes Correctly',date:'May 14, 2026',image:'https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'Most people compare only the premium number. Here is the full framework - liability limits, deductible math, exclusions, and the claims process score that matters most.'},
-  {slug:'life-insurance-at-30-term-vs-whole',_tag:'life',category:'Life',title:'Life Insurance at 30: Term vs Whole, the Honest Answer',date:'May 10, 2026',image:'https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:"The financial industry profits more from whole life. Here is the math that makes term almost always the better choice for most people in their 30s."},
-  {slug:'renters-insurance-what-it-actually-covers',_tag:'home',category:'Home',title:'What Renters Insurance Covers That Most People Do Not Realize',date:'May 6, 2026',image:'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'Most renters skip it thinking it is only for the apartment contents. It also covers personal liability, temporary housing, and theft outside your home.'},
-  {slug:'health-insurance-deductibles-vs-premiums',_tag:'health',category:'Health',title:'Health Insurance: How to Actually Do the Deductible vs Premium Math',date:'Apr 30, 2026',image:'https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'The right plan depends on how often you use healthcare. Here is the break-even formula that tells you whether a high-deductible plan saves you money.'},
-  {slug:'home-insurance-claims-denied',_tag:'home',category:'Home',title:'Home Insurance Claims That Get Denied - and Why',date:'Apr 24, 2026',image:'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:"The most expensive surprises are at claim time. Gradual damage, business equipment, and flood from ground water are almost never covered by standard policies."},
-  {slug:'travel-insurance-what-it-covers',_tag:'travel',category:'Travel',title:'Travel Insurance: What It Covers and What It Definitely Does Not',date:'Apr 18, 2026',image:'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:"Most people buy cancel-for-any-reason expecting full protection. Here is what 'trip cancellation' actually means and the six exclusions that catch everyone."},
-  {slug:'how-insurers-calculate-your-premium',_tag:'auto',category:'Auto',title:'How Insurance Companies Calculate Your Premium',date:'Apr 12, 2026',image:'https://images.pexels.com/photos/163210/engine-motor-machine-mechanic-163210.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'The price you are quoted is a risk score with a margin on top. Understanding the 8 variables that move your number the most gives you leverage.'},
-  {slug:'how-to-switch-insurance-without-coverage-gap',_tag:'auto',category:'Auto',title:'How to Switch Insurance Providers Without a Gap in Coverage',date:'Apr 5, 2026',image:'https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'A lapse in coverage - even for one day - can raise your next premium. Here is the exact sequence to cancel old coverage safely.'},
-  {slug:'insurance-fine-print-that-costs-people-most',_tag:'life',category:'Life',title:"The Fine Print in Insurance Policies That Costs People the Most",date:'Mar 28, 2026',image:'https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&w=600',meta_description:'The exclusions buried in definitions sections - not the obvious ones. Pre-existing conditions windows, contestability clauses, and misrepresentation provisions.'},
-];
+function renderEmptyState() {
+  const fl = document.getElementById('feat-lead');
+  if (fl) fl.innerHTML='<div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--muted);font-size:13px;font-family:var(--serif);font-style:italic">New articles coming soon.</div>';
+  const grid = document.getElementById('arts-grid');
+  if (grid) grid.innerHTML='<div style="grid-column:1/-1;padding:48px;text-align:center;color:var(--muted);font-size:13px;font-family:var(--serif);font-style:italic">New articles coming soon.</div>';
+  const btn = document.getElementById('load-more-btn');
+  if (btn) btn.style.display='none';
+  const sbList = document.getElementById('sb-top-list');
+  if (sbList) sbList.innerHTML='<div style="padding:12px 0;color:var(--muted);font-size:12px;font-style:italic">New guides coming soon.</div>';
+}
 
 async function loadArticles() {
   try {
@@ -470,10 +469,11 @@ async function loadArticles() {
     if (!r.ok) throw new Error('no articles');
     const arts = await r.json();
     if (!arts || !arts.length) throw new Error('empty');
-    allArts = arts.map(a=>({...a, _tag:getTag(a)}));
+    allArts = arts.filter(a=>a&&a.slug).map(a=>({...a, _tag:getTag(a)}));
   } catch(e) {
-    allArts = PLACEHOLDER_ARTS;
+    allArts = [];
   }
+  if (!allArts.length) { updateCounts(); renderEmptyState(); return; }
   shown = PAGE;
   updateCounts();
 
