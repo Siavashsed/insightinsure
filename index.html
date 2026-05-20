@@ -79,13 +79,10 @@ button{font-family:var(--font);cursor:pointer}
 .panel-row:last-child{border-bottom:none;padding-bottom:0}
 .pr-icon{width:32px;height:32px;border-radius:6px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .pr-title{font-size:12px;font-weight:600;color:rgba(255,255,255,.8);margin-bottom:2px}
-.pr-desc{font-size:11px;color:rgba(255,255,255,.35);line-height:1.5}
-@media(max-width:900px){.hero-inner{grid-template-columns:1fr}}
-@media(max-width:640px){.hero-inner{padding:36px 20px 44px}}
+.pr-desc{font-size:11px;color:rgba(255,255,255,.35);line-height:1.5}@media(max-width:900px){.hero-inner{grid-template-columns:1fr}}@media(max-width:640px){.hero-inner{padding:36px 20px 44px}}
 
 /* ── MAIN LAYOUT ── */
-.main{max-width:1200px;margin:0 auto;padding:40px 32px 80px;display:grid;grid-template-columns:1fr 300px;gap:48px}
-@media(max-width:900px){.main{grid-template-columns:1fr;padding:28px 20px 60px}}
+.main{max-width:1200px;margin:0 auto;padding:40px 32px 80px;display:grid;grid-template-columns:1fr 300px;gap:48px}@media(max-width:900px){.main{grid-template-columns:1fr;padding:28px 20px 60px}}
 
 /* ── SECTION LABELS ── */
 .sec-rule{border:none;border-top:2px solid var(--navy);margin-bottom:18px}
@@ -105,8 +102,7 @@ button{font-family:var(--font);cursor:pointer}
 .fl-card:hover .fl-title{color:var(--teal2)}
 .fl-desc{font-size:12px;color:var(--muted);line-height:1.65;margin-bottom:12px}
 .fl-meta{display:flex;gap:8px;align-items:center;font-size:10px;color:var(--muted);border-top:1px solid var(--border);padding-top:10px;margin-top:auto}
-.fl-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--border2)}
-@media(max-width:640px){.feat-lead{grid-template-columns:1fr}}
+.fl-meta-dot{width:3px;height:3px;border-radius:50%;background:var(--border2)}@media(max-width:640px){.feat-lead{grid-template-columns:1fr}}
 
 /* ── ARTICLE LIST ── */
 .art-list{display:flex;flex-direction:column;gap:0}
@@ -119,8 +115,7 @@ button{font-family:var(--font);cursor:pointer}
 .ar-title{font-family:var(--serif);font-size:16px;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:6px;transition:color .18s}
 .ar-desc{font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:6px}
 .ar-meta{font-size:10px;color:var(--muted)}
-.ar-img{width:100px;height:72px;border-radius:3px;object-fit:cover;background:var(--bg3);flex-shrink:0}
-@media(max-width:480px){.ar-img{display:none}}
+.ar-img{width:100px;height:72px;border-radius:3px;object-fit:cover;background:var(--bg3);flex-shrink:0}@media(max-width:480px){.ar-img{display:none}}
 
 /* ── ARTS GRID ── */
 .arts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:8px}
@@ -134,9 +129,7 @@ button{font-family:var(--font);cursor:pointer}
 .ag-cat{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--teal);margin-bottom:7px}
 .ag-title{font-family:var(--serif);font-size:15px;font-weight:600;color:var(--navy);line-height:1.35;margin-bottom:6px;flex:1}
 .ag-meta{font-size:10px;color:var(--muted);display:flex;justify-content:space-between;border-top:1px solid var(--border);padding-top:10px;margin-top:auto}
-.ag-read{font-size:10px;font-weight:600;color:var(--teal)}
-@media(max-width:900px){.arts-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.arts-grid{grid-template-columns:1fr}}
+.ag-read{font-size:10px;font-weight:600;color:var(--teal)}@media(max-width:900px){.arts-grid{grid-template-columns:1fr 1fr}}@media(max-width:480px){.arts-grid{grid-template-columns:1fr}}
 
 /* ── SIDEBAR ── */
 .sidebar{}
@@ -174,9 +167,7 @@ button{font-family:var(--font);cursor:pointer}
 .cat-card-icon{width:44px;height:44px;background:rgba(13,122,107,.07);border-radius:8px;display:flex;align-items:center;justify-content:center;margin:0 auto 10px}
 .cat-card-icon svg{color:var(--teal)}
 .cat-card-name{font-size:12px;font-weight:600;color:var(--navy);margin-bottom:3px}
-.cat-card-desc{font-size:10px;color:var(--muted)}
-@media(max-width:900px){.cats-grid{grid-template-columns:repeat(3,1fr)}}
-@media(max-width:480px){.cats-grid{grid-template-columns:repeat(2,1fr)}}
+.cat-card-desc{font-size:10px;color:var(--muted)}@media(max-width:900px){.cats-grid{grid-template-columns:repeat(3,1fr)}}@media(max-width:480px){.cats-grid{grid-template-columns:repeat(2,1fr)}}
 
 /* ── AUTHOR ── */
 .author-band{background:var(--navy2);padding:52px 32px}
@@ -185,8 +176,7 @@ button{font-family:var(--font);cursor:pointer}
 .author-role{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--teal);margin-bottom:6px}
 .author-name{font-family:var(--serif);font-size:24px;font-weight:700;color:#fff;margin-bottom:4px}
 .author-title{font-size:12px;color:rgba(255,255,255,.45);margin-bottom:16px}
-.author-bio{font-size:13px;color:rgba(255,255,255,.6);line-height:1.78;max-width:620px}
-@media(max-width:640px){.author-inner{grid-template-columns:1fr}.author-av{width:64px;height:64px;font-size:20px}}
+.author-bio{font-size:13px;color:rgba(255,255,255,.6);line-height:1.78;max-width:620px}@media(max-width:640px){.author-inner{grid-template-columns:1fr}.author-av{width:64px;height:64px;font-size:20px}}
 
 /* ── NEWSLETTER ── */
 .nl{background:var(--bg2);border-top:2px solid var(--teal);padding:72px 32px}
@@ -201,8 +191,7 @@ button{font-family:var(--font);cursor:pointer}
 .nl-btn{font-family:var(--font);font-size:12px;font-weight:700;letter-spacing:.5px;color:#fff;background:var(--teal);border:none;padding:13px 22px;cursor:pointer;transition:background .18s;white-space:nowrap;flex-shrink:0}
 .nl-btn:hover{background:var(--teal2)}
 .nl-note{font-size:10px;color:var(--muted);margin-top:12px}
-#nl-confirm{display:none;font-size:13px;color:var(--teal);margin-top:12px;font-family:var(--serif);font-style:italic}
-@media(max-width:480px){.nl-form{flex-direction:column;border-radius:4px}.nl-input{border-right:none;border-bottom:1px solid var(--border)}.nl-btn{padding:12px;border-radius:0}}
+#nl-confirm{display:none;font-size:13px;color:var(--teal);margin-top:12px;font-family:var(--serif);font-style:italic}@media(max-width:480px){.nl-form{flex-direction:column;border-radius:4px}.nl-input{border-right:none;border-bottom:1px solid var(--border)}.nl-btn{padding:12px;border-radius:0}}
 
 /* ── FOOTER ── */
 footer{background:var(--navy);padding:52px 32px 24px}
@@ -220,9 +209,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
 .foot-copy{font-size:11px;color:rgba(255,255,255,.2)}
 .foot-legal{display:flex;gap:16px}
 .foot-legal a{font-size:11px;color:rgba(255,255,255,.2);transition:color .18s}
-.foot-legal a:hover{color:rgba(255,255,255,.5)}
-@media(max-width:900px){.foot-top{grid-template-columns:1fr 1fr};footer{padding:40px 20px 20px}}
-@media(max-width:480px){.foot-top{grid-template-columns:1fr}.foot-bottom{flex-direction:column;text-align:center}}
+.foot-legal a:hover{color:rgba(255,255,255,.5)}@media(max-width:900px){.foot-top{grid-template-columns:1fr 1fr};footer{padding:40px 20px 20px}}@media(max-width:480px){.foot-top{grid-template-columns:1fr}.foot-bottom{flex-direction:column;text-align:center}}
 
 /* Filter bar */
 .filter-bar{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:28px}
@@ -232,8 +219,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
 /* Load more */
 .load-more-wrap{text-align:center;margin-top:32px}
 .load-more-btn{font-size:12px;font-weight:600;color:var(--teal);background:#fff;border:2px solid var(--teal);padding:12px 28px;border-radius:3px;cursor:pointer;transition:all .18s;letter-spacing:.5px;text-transform:uppercase}
-.load-more-btn:hover{background:var(--teal);color:#fff}
-</style>
+.load-more-btn:hover{background:var(--teal);color:#fff}</style>
 </head>
 <body>
 <!--SHELL:ACCENT:#0d7a6b-->
@@ -290,7 +276,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
         </a>
         <span class="btn-ghost" onclick="document.getElementById('newsletter').scrollIntoView({behavior:'smooth'})">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/></svg>
           Weekly Briefing
         </span>
       </div>
@@ -308,7 +294,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
       </div>
       <div class="panel-row">
         <div class="pr-icon" style="background:rgba(13,122,107,.15)">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0d7a6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0d7a6b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
         </div>
         <div>
           <div class="pr-title">Home &amp; Renters</div>
@@ -353,7 +339,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
       </div>
       <div class="cat-card" onclick="setFilter('home')">
         <div class="cat-card-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
         </div>
         <div class="cat-card-name">Home &amp; Renters</div>
         <div class="cat-card-desc">Property protection</div>
@@ -432,7 +418,7 @@ footer{background:var(--navy);padding:52px 32px 24px}
         <div class="qf-text"><strong>Bundling saves 15-25%</strong>Combining auto and home with one insurer typically reduces both premiums substantially.</div>
       </div>
       <div class="quick-fact">
-        <div class="qf-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+        <div class="qf-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/></svg></div>
         <div class="qf-text"><strong>Review annually</strong>Life events - marriage, mortgage, new car - should trigger an immediate policy review.</div>
       </div>
       <div class="quick-fact">
