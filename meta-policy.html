@@ -452,6 +452,7 @@ function renderEmptyState() {
 }
 
 async function loadArticles() {
+  if(!document.getElementById('arts-grid'))return;
   try {
     const r = await fetch('./articles.json');
     if (!r.ok) throw new Error('no articles');
