@@ -14,7 +14,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "California's FAIR Plan Crisis in 2023: What It Really Meant for Homeowners",
@@ -33,7 +34,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Home"
   },
   {
     "title": "How the FCA's 2020 Price Walking Ban Changed Insurance Comparisons Forever",
@@ -51,7 +53,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "Health Insurance Deductibles vs Premiums: How to Actually Do the Math",
@@ -69,7 +72,8 @@
     "posted_iso": "2026-05-29",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "The FCA's 2021 Price Walking Ban: What It Actually Changed for Insurance Buyers",
@@ -86,6 +90,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   }
 ]
