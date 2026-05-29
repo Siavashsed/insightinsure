@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://siavashsed.github.io/insightinsure/</loc><lastmod>2026-05-28</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
-  <url><loc>https://siavashsed.github.io/insightinsure/about/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
-  <url><loc>https://siavashsed.github.io/insightinsure/contact/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://siavashsed.github.io/insightinsure/privacy/</loc><lastmod>2026-05-28</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/</loc><lastmod>2026-05-29</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/about/</loc><lastmod>2026-05-29</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/contact/</loc><lastmod>2026-05-29</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/privacy/</loc><lastmod>2026-05-29</lastmod><changefreq>yearly</changefreq><priority>0.2</priority></url>
   <url><loc>https://siavashsed.github.io/insightinsure/fca-consumer-duty-insurance-2022/</loc><lastmod>2022-02-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/insightinsure/california-fair-plan-crisis-2023/</loc><lastmod>2023-06-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://siavashsed.github.io/insightinsure/fca-2020-price-walking-ban-insurance/</loc><lastmod>2020-01-16</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/health-insurance-deductibles-vs-premiums-math/</loc><lastmod>2026-05-29</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://siavashsed.github.io/insightinsure/fca-2021-price-walking-ban-insurance/</loc><lastmod>2021-11-21</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
