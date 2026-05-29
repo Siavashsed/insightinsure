@@ -52,5 +52,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Health Insurance Deductibles vs Premiums: How to Actually Do the Math",
+    "slug": "health-insurance-deductibles-vs-premiums-math",
+    "meta_description": "Patrick Lane breaks down how to calculate the real cost of health insurance by comparing deductibles vs premiums with simple, honest math.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7734651/pexels-photo-7734651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "kff.org",
+      "cdc.gov",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FCA's 2021 Price Walking Ban: What It Actually Changed for Insurance Buyers",
+    "slug": "fca-2021-price-walking-ban-insurance",
+    "meta_description": "The FCA's 2021 price walking ban reshaped how insurers could price renewals. Here's what it really meant for you, from an independent broker.",
+    "date": "November 21, 2021",
+    "date_iso": "2021-11-21",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/9870150/pexels-photo-9870150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-05-29",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
