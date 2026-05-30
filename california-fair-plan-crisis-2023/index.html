@@ -229,9 +229,14 @@ footer{background:var(--navy);padding:52px 32px 24px}
    the conclusion + sources block escape the 720px column on wide screens.
    Pin every descendant of .ap to max-width:100% and the wrapper to a hard
    720px so nothing can break out regardless of homepage CSS quirks. */
-.ap,.ap *,.ap-concl,.ap-concl *,.ap-pull,.ap-body,.ap-body *,.ap-deck{box-sizing:border-box;overflow-wrap:break-word;word-wrap:break-word;word-break:normal;hyphens:auto;max-width:100%}
-.ap{max-width:720px;margin:0 auto;padding:56px 24px 24px;font-family:'Lora',Georgia,serif;position:relative;overflow:visible}
-.ap-body,.ap-concl,.ap-deck,.ap-pull{max-width:none;width:auto}
+.ap,.ap *,.ap-concl,.ap-concl *,.ap-pull,.ap-body,.ap-body *,.ap-deck{box-sizing:border-box;overflow-wrap:anywhere;word-wrap:break-word;word-break:normal;hyphens:auto;max-width:100%;min-width:0}
+.ap{max-width:720px !important;margin:0 auto !important;padding:56px 24px 24px;font-family:'Lora',Georgia,serif;position:relative;overflow:hidden;width:100%}
+.ap-body,.ap-concl,.ap-deck,.ap-pull{max-width:100% !important;width:100%;min-width:0}
+/* Defensive: any long URL or unbreakable string inside the article is
+   forced to break so it cannot push the parent column wider than 720px. */
+.ap-body a,.ap-concl a,.ap-pull a{overflow-wrap:anywhere;word-break:break-word}
+body[data-page-depth="1"]{overflow-x:hidden}
+article[itemscope]{display:block;max-width:100%;overflow-x:hidden}
 .ap-kicker{display:flex;align-items:center;gap:12px;font-family:'Playfair Display',Georgia,serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:#0d7a6b;margin:0 0 26px}
 .ap-kicker::before{content:'';width:28px;height:1px;background:#0d7a6b}
 .ap-kicker .ap-sep{opacity:.4;font-weight:400;letter-spacing:1px;color:#6b7280}
