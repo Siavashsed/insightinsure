@@ -92,5 +92,43 @@
       "en"
     ],
     "category": "Auto"
+  },
+  {
+    "title": "How Insurance Companies Calculate Your Premium (And What You Can Actually Do About It)",
+    "slug": "how-insurers-calculate-your-premium",
+    "meta_description": "Insurance broker Patrick Lane explains exactly how insurers price your premium and which moves genuinely lower it. Plain language, no jargon.",
+    "date": "June 01, 2026",
+    "date_iso": "2026-06-01",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8837378/pexels-photo-8837378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "ftc.gov",
+      "gov.uk",
+      "which.co.uk"
+    ],
+    "posted_iso": "2026-06-01",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FCA's 2024 Motor Insurance Pricing Review: What It Really Changed for Drivers",
+    "slug": "fca-2024-motor-insurance-pricing-review",
+    "meta_description": "The FCA's 2024 motor insurance pricing review shook up how insurers quote renewal premiums. Here's what it meant for real drivers.",
+    "date": "November 05, 2024",
+    "date_iso": "2024-11-05",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8470831/pexels-photo-8470831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "fca.org.uk",
+      "statista.com"
+    ],
+    "posted_iso": "2026-06-01",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
