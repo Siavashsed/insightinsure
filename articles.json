@@ -110,7 +110,8 @@
     "posted_iso": "2026-06-01",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "The FCA's 2024 Motor Insurance Pricing Review: What It Really Changed for Drivers",
@@ -129,6 +130,7 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   }
 ]
