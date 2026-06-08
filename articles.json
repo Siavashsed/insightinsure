@@ -132,5 +132,42 @@
       "en"
     ],
     "category": "Auto"
+  },
+  {
+    "title": "Home Insurance Claims That Get Denied: The Real Reasons Insurers Say No",
+    "slug": "home-insurance-claims-denied-reasons",
+    "meta_description": "Home insurance claims get denied more often than you'd think. Independent broker Patrick Lane explains the real reasons - and how to fight back.",
+    "date": "June 08, 2026",
+    "date_iso": "2026-06-08",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/6152254/pexels-photo-6152254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "financial-ombudsman.org.uk",
+      "abi.org.uk",
+      "bcis.co.uk"
+    ],
+    "posted_iso": "2026-06-08",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FCA's Price Walking Ban: What Actually Changed for Insurance Buyers in 2022",
+    "slug": "fca-price-walking-ban-2022",
+    "meta_description": "The FCA's price walking ban took full effect in 2022. Here's what it really meant for insurance buyers, and whether it delivered on its promise.",
+    "date": "October 26, 2022",
+    "date_iso": "2022-10-26",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7821529/pexels-photo-7821529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "abi.org.uk",
+      "citizensadvice.org.uk"
+    ],
+    "posted_iso": "2026-06-08",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
