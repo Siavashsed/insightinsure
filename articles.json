@@ -169,5 +169,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "The FCA Price Walking Ban Landed in 2021. Here's What Actually Happened.",
+    "slug": "fca-2021-price-walking-ban-insurance-2",
+    "meta_description": "The FCA's 2021 price walking ban was the biggest shake-up in UK home and car insurance in years. Here's what it changed, and what it didn't.",
+    "date": "October 23, 2021",
+    "date_iso": "2021-10-23",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/9870135/pexels-photo-9870135.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "abi.org.uk"
+    ],
+    "posted_iso": "2026-06-10",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
