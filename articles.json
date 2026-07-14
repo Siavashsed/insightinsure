@@ -187,5 +187,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "How to File Your First Car Claim and Keep Your Rate",
+    "slug": "first-car-claim-protect-rate",
+    "meta_description": "A broker's plain-language walkthrough of filing your first car insurance claim without watching your premium jump at renewal.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Sarah Clarke",
+    "image": "https://images.pexels.com/photos/4005059/pexels-photo-4005059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "consumerreports.org"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The FCA Just Called Time on Loyalty Punishment in Insurance",
+    "slug": "fca-2020-insurance-pricing-report",
+    "meta_description": "The FCA's 2020 pricing report exposed how loyal insurance customers subsidise switchers. Here is what it found and what it means for your renewal.",
+    "date": "December 11, 2020",
+    "date_iso": "2020-12-11",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7688182/pexels-photo-7688182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "citizensadvice.org.uk"
+    ],
+    "posted_iso": "2026-07-13",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
