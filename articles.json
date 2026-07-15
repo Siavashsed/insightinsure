@@ -222,5 +222,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "You Never Claimed. Your Premium Jumped 40% Anyway. Here's Why",
+    "slug": "insurance-rates-up-no-claim",
+    "meta_description": "Your insurance rates went up with no claims filed. A broker explains the real reasons, from claims inflation to price walking, and how to push back.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8730981/pexels-photo-8730981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
