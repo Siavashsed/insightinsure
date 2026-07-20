@@ -239,5 +239,43 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Freelancers Are Buying the Wrong Insurance, and Brokers Know It",
+    "slug": "freelancer-gig-worker-insurance-cover",
+    "meta_description": "Insurance for freelancers and gig workers is sold badly. A broker explains which cover actually pays out, what to skip, and what it should cost.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/17754371/pexels-photo-17754371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ons.gov.uk",
+      "abi.org.uk",
+      "ipse.co.uk"
+    ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The \u00a3240 Whiplash Tariff: Britain's Biggest Injury Shake-Up Lands",
+    "slug": "whiplash-reform-2021-official-injury-claim",
+    "meta_description": "The Official Injury Claim portal launched 31 May 2021 and capped whiplash payouts at \u00a3240. Here is what it really means for your motor premium.",
+    "date": "June 10, 2021",
+    "date_iso": "2021-06-10",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7674/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "gov.uk",
+      "officialinjuryclaim.org.uk",
+      "abi.org.uk",
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-07-20",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
