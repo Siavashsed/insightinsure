@@ -15,7 +15,8 @@
     "posted_iso": "2026-07-20",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "You Never Claimed. Your Premium Jumped 40% Anyway. Here's Why",
@@ -32,7 +33,8 @@
     "posted_iso": "2026-07-15",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "How to File Your First Car Claim and Keep Your Rate",
@@ -49,7 +51,8 @@
     "posted_iso": "2026-07-13",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "Home Insurance Claims That Get Denied: The Real Reasons Insurers Say No",
@@ -67,7 +70,8 @@
     "posted_iso": "2026-06-08",
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Home"
   },
   {
     "title": "How Insurance Companies Calculate Your Premium (And What You Can Actually Do About It)",
@@ -165,7 +169,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "A Risk Analyst Reads a Private Kavalsia: Track Record, Platform and Tracking Risk on a Likelihood x Impact Matrix",
@@ -235,12 +240,13 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
-    "title": "The £240 Whiplash Tariff: Britain's Biggest Injury Shake-Up Lands",
+    "title": "The \u00a3240 Whiplash Tariff: Britain's Biggest Injury Shake-Up Lands",
     "slug": "whiplash-reform-2021-official-injury-claim",
-    "meta_description": "The Official Injury Claim portal launched 31 May 2021 and capped whiplash payouts at £240. Here is what it really means for your motor premium.",
+    "meta_description": "The Official Injury Claim portal launched 31 May 2021 and capped whiplash payouts at \u00a3240. Here is what it really means for your motor premium.",
     "date": "June 10, 2021",
     "date_iso": "2021-06-10",
     "author": "Patrick Lane",
@@ -255,7 +261,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "The FCA Just Called Time on Loyalty Punishment in Insurance",
@@ -273,7 +280,8 @@
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   },
   {
     "title": "How the FCA's 2020 Price Walking Ban Changed Insurance Comparisons Forever",
