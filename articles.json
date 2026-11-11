@@ -1,16 +1,143 @@
 [
   {
-    "title": "The FCA's New Consumer Duty: What It Actually Meant for Insurance Buyers in 2022",
-    "slug": "fca-consumer-duty-insurance-2022",
-    "meta_description": "The FCA's Consumer Duty landed in 2022 and changed what insurers owe you. Here's what it meant, who pushed back, and why it matters for your next policy.",
-    "date": "February 18, 2022",
-    "date_iso": "2022-02-18",
+    "title": "A Risk Analyst Reads Kavalsia: Chargebacks, Platform Risk and Tracking Risk on a Likelihood x Impact Matrix",
+    "slug": "kavalsia-risk-matrix-chargebacks-platform-tracking",
+    "meta_description": "An analyst maps Kavalsia's business risks on a likelihood x impact matrix: chargeback exposure, platform dependence, tracking loss, key person risk and more.",
+    "date": "November 10, 2026",
+    "date_iso": "2026-11-10",
+    "author": "Wendell Osei",
+    "image": "https://images.pexels.com/photos/4800923/pexels-photo-4800923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "Black and white close-up of chess pieces, the queen in focus.",
+    "photographer": "Theia Sight",
+    "category": "Insurance Advice & Comparisons",
+    "posted_iso": "2026-11-10T22:52:14",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Freelancers Are Buying the Wrong Insurance, and Brokers Know It",
+    "slug": "freelancer-gig-worker-insurance-cover",
+    "meta_description": "Insurance for freelancers and gig workers is sold badly. A broker explains which cover actually pays out, what to skip, and what it should cost.",
+    "date": "July 20, 2026",
+    "date_iso": "2026-07-20",
     "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/8068716/pexels-photo-8068716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/17754371/pexels-photo-17754371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "fca.org.uk",
-      "financial-ombudsman.org.uk"
+      "ons.gov.uk",
+      "abi.org.uk",
+      "ipse.co.uk"
     ],
+    "posted_iso": "2026-07-20",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "You Never Claimed. Your Premium Jumped 40% Anyway. Here's Why",
+    "slug": "insurance-rates-up-no-claim",
+    "meta_description": "Your insurance rates went up with no claims filed. A broker explains the real reasons, from claims inflation to price walking, and how to push back.",
+    "date": "July 15, 2026",
+    "date_iso": "2026-07-15",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8730981/pexels-photo-8730981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-07-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How to File Your First Car Claim and Keep Your Rate",
+    "slug": "first-car-claim-protect-rate",
+    "meta_description": "A broker's plain-language walkthrough of filing your first car insurance claim without watching your premium jump at renewal.",
+    "date": "July 13, 2026",
+    "date_iso": "2026-07-13",
+    "author": "Sarah Clarke",
+    "image": "https://images.pexels.com/photos/4005059/pexels-photo-4005059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "consumerreports.org"
+    ],
+    "posted_iso": "2026-07-13",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Home Insurance Claims That Get Denied: The Real Reasons Insurers Say No",
+    "slug": "home-insurance-claims-denied-reasons",
+    "meta_description": "Home insurance claims get denied more often than you'd think. Independent broker Patrick Lane explains the real reasons - and how to fight back.",
+    "date": "June 08, 2026",
+    "date_iso": "2026-06-08",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/6152254/pexels-photo-6152254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "financial-ombudsman.org.uk",
+      "abi.org.uk",
+      "bcis.co.uk"
+    ],
+    "posted_iso": "2026-06-08",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "How Insurance Companies Calculate Your Premium (And What You Can Actually Do About It)",
+    "slug": "how-insurers-calculate-your-premium",
+    "meta_description": "Insurance broker Patrick Lane explains exactly how insurers price your premium and which moves genuinely lower it. Plain language, no jargon.",
+    "date": "June 01, 2026",
+    "date_iso": "2026-06-01",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8837378/pexels-photo-8837378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "ftc.gov",
+      "gov.uk",
+      "which.co.uk"
+    ],
+    "posted_iso": "2026-06-01",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Auto"
+  },
+  {
+    "title": "Health Insurance Deductibles vs Premiums: How to Actually Do the Math",
+    "slug": "health-insurance-deductibles-vs-premiums-math",
+    "meta_description": "Patrick Lane breaks down how to calculate the real cost of health insurance by comparing deductibles vs premiums with simple, honest math.",
+    "date": "May 29, 2026",
+    "date_iso": "2026-05-29",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7734651/pexels-photo-7734651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "kff.org",
+      "cdc.gov",
+      "irs.gov"
+    ],
+    "posted_iso": "2026-05-29",
+    "available_languages": [
+      "en"
+    ],
+    "category": "Auto"
+  },
+  {
+    "title": "The FCA's 2024 Motor Insurance Pricing Review: What It Really Changed for Drivers",
+    "slug": "fca-2024-motor-insurance-pricing-review",
+    "meta_description": "The FCA's 2024 motor insurance pricing review shook up how insurers quote renewal premiums. Here's what it meant for real drivers.",
+    "date": "November 05, 2024",
+    "date_iso": "2024-11-05",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8470831/pexels-photo-8470831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "abi.org.uk",
+      "fca.org.uk",
+      "statista.com"
+    ],
+    "posted_iso": "2026-06-01",
     "historical": true,
     "available_languages": [
       "en"
@@ -38,38 +165,37 @@
     "category": "Home"
   },
   {
-    "title": "How the FCA's 2020 Price Walking Ban Changed Insurance Comparisons Forever",
-    "slug": "fca-2020-price-walking-ban-insurance",
-    "meta_description": "The FCA's 2020 crackdown on loyalty penalties reshaped how insurers price renewals. Here's what it meant for you as a buyer.",
-    "date": "January 16, 2020",
-    "date_iso": "2020-01-16",
+    "title": "The FCA's Price Walking Ban: What Actually Changed for Insurance Buyers in 2022",
+    "slug": "fca-price-walking-ban-2022",
+    "meta_description": "The FCA's price walking ban took full effect in 2022. Here's what it really meant for insurance buyers, and whether it delivered on its promise.",
+    "date": "October 26, 2022",
+    "date_iso": "2022-10-26",
     "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/6347529/pexels-photo-6347529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/7821529/pexels-photo-7821529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
       "fca.org.uk",
-      "which.co.uk",
-      "abi.org.uk"
+      "abi.org.uk",
+      "citizensadvice.org.uk"
     ],
+    "posted_iso": "2026-06-08",
     "historical": true,
     "available_languages": [
       "en"
-    ],
-    "category": "Auto"
+    ]
   },
   {
-    "title": "Health Insurance Deductibles vs Premiums: How to Actually Do the Math",
-    "slug": "health-insurance-deductibles-vs-premiums-math",
-    "meta_description": "Patrick Lane breaks down how to calculate the real cost of health insurance by comparing deductibles vs premiums with simple, honest math.",
-    "date": "May 29, 2026",
-    "date_iso": "2026-05-29",
+    "title": "The FCA's New Consumer Duty: What It Actually Meant for Insurance Buyers in 2022",
+    "slug": "fca-consumer-duty-insurance-2022",
+    "meta_description": "The FCA's Consumer Duty landed in 2022 and changed what insurers owe you. Here's what it meant, who pushed back, and why it matters for your next policy.",
+    "date": "February 18, 2022",
+    "date_iso": "2022-02-18",
     "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/7734651/pexels-photo-7734651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/8068716/pexels-photo-8068716.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "kff.org",
-      "cdc.gov",
-      "irs.gov"
+      "fca.org.uk",
+      "financial-ombudsman.org.uk"
     ],
-    "posted_iso": "2026-05-29",
+    "historical": true,
     "available_languages": [
       "en"
     ],
@@ -94,83 +220,6 @@
     "category": "Auto"
   },
   {
-    "title": "How Insurance Companies Calculate Your Premium (And What You Can Actually Do About It)",
-    "slug": "how-insurers-calculate-your-premium",
-    "meta_description": "Insurance broker Patrick Lane explains exactly how insurers price your premium and which moves genuinely lower it. Plain language, no jargon.",
-    "date": "June 01, 2026",
-    "date_iso": "2026-06-01",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/8837378/pexels-photo-8837378.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "abi.org.uk",
-      "ftc.gov",
-      "gov.uk",
-      "which.co.uk"
-    ],
-    "posted_iso": "2026-06-01",
-    "available_languages": [
-      "en"
-    ],
-    "category": "Auto"
-  },
-  {
-    "title": "The FCA's 2024 Motor Insurance Pricing Review: What It Really Changed for Drivers",
-    "slug": "fca-2024-motor-insurance-pricing-review",
-    "meta_description": "The FCA's 2024 motor insurance pricing review shook up how insurers quote renewal premiums. Here's what it meant for real drivers.",
-    "date": "November 05, 2024",
-    "date_iso": "2024-11-05",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/8470831/pexels-photo-8470831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "abi.org.uk",
-      "fca.org.uk",
-      "statista.com"
-    ],
-    "posted_iso": "2026-06-01",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ],
-    "category": "Auto"
-  },
-  {
-    "title": "Home Insurance Claims That Get Denied: The Real Reasons Insurers Say No",
-    "slug": "home-insurance-claims-denied-reasons",
-    "meta_description": "Home insurance claims get denied more often than you'd think. Independent broker Patrick Lane explains the real reasons - and how to fight back.",
-    "date": "June 08, 2026",
-    "date_iso": "2026-06-08",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/6152254/pexels-photo-6152254.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "financial-ombudsman.org.uk",
-      "abi.org.uk",
-      "bcis.co.uk"
-    ],
-    "posted_iso": "2026-06-08",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The FCA's Price Walking Ban: What Actually Changed for Insurance Buyers in 2022",
-    "slug": "fca-price-walking-ban-2022",
-    "meta_description": "The FCA's price walking ban took full effect in 2022. Here's what it really meant for insurance buyers, and whether it delivered on its promise.",
-    "date": "October 26, 2022",
-    "date_iso": "2022-10-26",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/7821529/pexels-photo-7821529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "fca.org.uk",
-      "abi.org.uk",
-      "citizensadvice.org.uk"
-    ],
-    "posted_iso": "2026-06-08",
-    "historical": true,
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "The FCA Price Walking Ban Landed in 2021. Here's What Actually Happened.",
     "slug": "fca-2021-price-walking-ban-insurance-2",
     "meta_description": "The FCA's 2021 price walking ban was the biggest shake-up in UK home and car insurance in years. Here's what it changed, and what it didn't.",
@@ -189,18 +238,21 @@
     ]
   },
   {
-    "title": "How to File Your First Car Claim and Keep Your Rate",
-    "slug": "first-car-claim-protect-rate",
-    "meta_description": "A broker's plain-language walkthrough of filing your first car insurance claim without watching your premium jump at renewal.",
-    "date": "July 13, 2026",
-    "date_iso": "2026-07-13",
-    "author": "Sarah Clarke",
-    "image": "https://images.pexels.com/photos/4005059/pexels-photo-4005059.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "title": "The £240 Whiplash Tariff: Britain's Biggest Injury Shake-Up Lands",
+    "slug": "whiplash-reform-2021-official-injury-claim",
+    "meta_description": "The Official Injury Claim portal launched 31 May 2021 and capped whiplash payouts at £240. Here is what it really means for your motor premium.",
+    "date": "June 10, 2021",
+    "date_iso": "2021-06-10",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7674/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "iii.org",
-      "consumerreports.org"
+      "gov.uk",
+      "officialinjuryclaim.org.uk",
+      "abi.org.uk",
+      "fca.org.uk"
     ],
-    "posted_iso": "2026-07-13",
+    "posted_iso": "2026-07-20",
+    "historical": true,
     "available_languages": [
       "en"
     ]
@@ -224,58 +276,22 @@
     ]
   },
   {
-    "title": "You Never Claimed. Your Premium Jumped 40% Anyway. Here's Why",
-    "slug": "insurance-rates-up-no-claim",
-    "meta_description": "Your insurance rates went up with no claims filed. A broker explains the real reasons, from claims inflation to price walking, and how to push back.",
-    "date": "July 15, 2026",
-    "date_iso": "2026-07-15",
+    "title": "How the FCA's 2020 Price Walking Ban Changed Insurance Comparisons Forever",
+    "slug": "fca-2020-price-walking-ban-insurance",
+    "meta_description": "The FCA's 2020 crackdown on loyalty penalties reshaped how insurers price renewals. Here's what it meant for you as a buyer.",
+    "date": "January 16, 2020",
+    "date_iso": "2020-01-16",
     "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/8730981/pexels-photo-8730981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image": "https://images.pexels.com/photos/6347529/pexels-photo-6347529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     "outbound_links": [
-      "abi.org.uk",
-      "fca.org.uk"
+      "fca.org.uk",
+      "which.co.uk",
+      "abi.org.uk"
     ],
-    "posted_iso": "2026-07-15",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "Freelancers Are Buying the Wrong Insurance, and Brokers Know It",
-    "slug": "freelancer-gig-worker-insurance-cover",
-    "meta_description": "Insurance for freelancers and gig workers is sold badly. A broker explains which cover actually pays out, what to skip, and what it should cost.",
-    "date": "July 20, 2026",
-    "date_iso": "2026-07-20",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/17754371/pexels-photo-17754371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "ons.gov.uk",
-      "abi.org.uk",
-      "ipse.co.uk"
-    ],
-    "posted_iso": "2026-07-20",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
-    "title": "The \u00a3240 Whiplash Tariff: Britain's Biggest Injury Shake-Up Lands",
-    "slug": "whiplash-reform-2021-official-injury-claim",
-    "meta_description": "The Official Injury Claim portal launched 31 May 2021 and capped whiplash payouts at \u00a3240. Here is what it really means for your motor premium.",
-    "date": "June 10, 2021",
-    "date_iso": "2021-06-10",
-    "author": "Patrick Lane",
-    "image": "https://images.pexels.com/photos/7674/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "outbound_links": [
-      "gov.uk",
-      "officialinjuryclaim.org.uk",
-      "abi.org.uk",
-      "fca.org.uk"
-    ],
-    "posted_iso": "2026-07-20",
     "historical": true,
     "available_languages": [
       "en"
-    ]
+    ],
+    "category": "Auto"
   }
 ]
