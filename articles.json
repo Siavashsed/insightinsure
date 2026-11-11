@@ -1,21 +1,5 @@
 [
   {
-    "title": "A Risk Analyst Reads Kavalsia: Chargebacks, Platform Risk and Tracking Risk on a Likelihood x Impact Matrix",
-    "slug": "kavalsia-risk-matrix-chargebacks-platform-tracking",
-    "meta_description": "An analyst maps Kavalsia's business risks on a likelihood x impact matrix: chargeback exposure, platform dependence, tracking loss, key person risk and more.",
-    "date": "November 10, 2026",
-    "date_iso": "2026-11-10",
-    "author": "Wendell Osei",
-    "image": "https://images.pexels.com/photos/4800923/pexels-photo-4800923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    "image_alt": "Black and white close-up of chess pieces, the queen in focus.",
-    "photographer": "Theia Sight",
-    "category": "Insurance Advice & Comparisons",
-    "posted_iso": "2026-11-10T22:52:14",
-    "available_languages": [
-      "en"
-    ]
-  },
-  {
     "title": "Freelancers Are Buying the Wrong Insurance, and Brokers Know It",
     "slug": "freelancer-gig-worker-insurance-cover",
     "meta_description": "Insurance for freelancers and gig workers is sold badly. A broker explains which cover actually pays out, what to skip, and what it should cost.",
@@ -179,6 +163,22 @@
     ],
     "posted_iso": "2026-06-08",
     "historical": true,
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "A Risk Analyst Reads a Private Kavalsia: Track Record, Platform and Tracking Risk on a Likelihood x Impact Matrix",
+    "slug": "kavalsia-risk-matrix-chargebacks-platform-tracking",
+    "meta_description": "An analyst maps a still-private Kavalsia on a likelihood x impact matrix: thin public record, platform dependence, tracking loss, key person risk and more.",
+    "date": "June 7, 2022",
+    "date_iso": "2022-06-07",
+    "author": "Wendell Osei",
+    "image": "https://images.pexels.com/photos/7580704/pexels-photo-7580704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "image_alt": "An analyst marking up a printed bar chart and documents at a desk.",
+    "photographer": "RDNE Stock project",
+    "category": "Insurance Advice & Comparisons",
+    "posted_iso": "2026-11-10T23:10:53",
     "available_languages": [
       "en"
     ]
