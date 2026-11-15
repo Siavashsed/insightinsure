@@ -301,5 +301,40 @@
       "en"
     ],
     "category": "Auto"
+  },
+  {
+    "title": "Why I Tell Most New Car Buyers to Refuse the Dealer's Gap Insurance",
+    "slug": "gap-insurance-new-car-do-you-need-it",
+    "meta_description": "Do you need gap insurance on a new car? A broker explains who needs it, who doesn't, and why the dealer's version usually costs three times too much.",
+    "date": "November 15, 2026",
+    "date_iso": "2026-11-15",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/4173201/pexels-photo-4173201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "rac.co.uk",
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-11-15",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "Less Than 10p in the Pound: Why the 2024 GAP Insurance Pause Was Right",
+    "slug": "gap-insurance-pause-2024-what-changed",
+    "meta_description": "The FCA let dealers sell GAP insurance again in 2024. A broker explains what changed, what didn't, and how to avoid overpaying at the showroom.",
+    "date": "June 11, 2024",
+    "date_iso": "2024-06-11",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/4173192/pexels-photo-4173192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk",
+      "abi.org.uk"
+    ],
+    "posted_iso": "2026-11-15",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
