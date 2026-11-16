@@ -336,5 +336,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "A $21,400 Roof, a $7,240 Check, and the Clause Nobody Read",
+    "slug": "actual-cash-value-vs-replacement-cost",
+    "meta_description": "Actual cash value vs replacement cost decides whether your claim check rebuilds anything. A broker explains depreciation, holdbacks and what to buy.",
+    "date": "November 16, 2026",
+    "date_iso": "2026-11-16",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/8526528/pexels-photo-8526528.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "nahb.org",
+      "uphelp.org"
+    ],
+    "posted_iso": "2026-11-16",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
