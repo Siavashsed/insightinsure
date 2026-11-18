@@ -370,5 +370,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Captive Agent Can Only Sell You One Company's Policy",
+    "slug": "independent-broker-captive-agent-direct",
+    "meta_description": "Independent broker vs captive agent vs buying direct: a broker explains who finds you the best policy, who costs you money, and what to ask each one.",
+    "date": "November 18, 2026",
+    "date_iso": "2026-11-18",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7654440/pexels-photo-7654440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "independentagent.com",
+      "bls.gov"
+    ],
+    "posted_iso": "2026-11-18",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
