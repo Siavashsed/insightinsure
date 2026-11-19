@@ -387,5 +387,24 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your State Minimum Liability Limit Is Quietly Betting Your Paycheck",
+    "slug": "auto-liability-limits-without-overpaying",
+    "meta_description": "A broker's plain-language guide to auto liability limits: what to carry, what it costs, and where to cut so you protect your savings without overpaying.",
+    "date": "November 19, 2026",
+    "date_iso": "2026-11-19",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/4895439/pexels-photo-4895439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "insurance.ca.gov",
+      "kbb.com",
+      "insurance-research.org"
+    ],
+    "posted_iso": "2026-11-19",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
