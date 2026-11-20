@@ -406,5 +406,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Cheapest Car Insurance Quote Probably Covers Less Than You Think",
+    "slug": "compare-car-insurance-quotes-correctly",
+    "meta_description": "Learn how to compare car insurance quotes correctly: match limits and deductibles first, then price. A broker's plain-language method that works.",
+    "date": "November 20, 2026",
+    "date_iso": "2026-11-20",
+    "author": "Greta Holmstrom",
+    "image": "https://images.pexels.com/photos/8439708/pexels-photo-8439708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "fca.org.uk",
+      "naic.org"
+    ],
+    "posted_iso": "2026-11-20",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
