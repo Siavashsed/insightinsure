@@ -424,5 +424,22 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "At 30, Term Life Beats Whole Life for Nearly Everyone",
+    "slug": "term-vs-whole-life-at-30",
+    "meta_description": "Life insurance at 30: term vs whole, the honest answer from a broker. Real prices, the rare cases where whole life wins, and what to buy this month.",
+    "date": "November 21, 2026",
+    "date_iso": "2026-11-21",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7220465/pexels-photo-7220465.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "cdc.gov",
+      "limra.com"
+    ],
+    "posted_iso": "2026-11-21",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
