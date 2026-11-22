@@ -441,5 +441,40 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Renters Policy Covers Hotel Bills, Lawsuits and a Stolen Bike",
+    "slug": "what-renters-insurance-covers-hidden",
+    "meta_description": "What renters insurance covers that most people don't realize: hotel stays, lawsuits, stolen bikes and more, from a broker who hates jargon.",
+    "date": "November 22, 2026",
+    "date_iso": "2026-11-22",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/6699979/pexels-photo-6699979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "nfpa.org",
+      "naic.org"
+    ],
+    "posted_iso": "2026-11-22",
+    "available_languages": [
+      "en"
+    ]
+  },
+  {
+    "title": "The 2022 Price-Walking Ban Hit Insurers Where It Hurt, But Not Everywhere",
+    "slug": "fca-price-walking-ban-2022-retrospective",
+    "meta_description": "The FCA's January 2022 ban on price walking ended the loyalty penalty on home and motor cover. A broker explains what changed and what didn't.",
+    "date": "November 30, 2022",
+    "date_iso": "2022-11-30",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/7927540/pexels-photo-7927540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "fca.org.uk"
+    ],
+    "posted_iso": "2026-11-22",
+    "historical": true,
+    "available_languages": [
+      "en"
+    ]
   }
 ]
