@@ -476,5 +476,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Three Policies Most Households Skip, and the Gaps Cost Real Money",
+    "slug": "insurance-policies-you-should-have",
+    "meta_description": "Most households are missing an umbrella, disability income and flood cover. A broker explains what each costs and who really needs it.",
+    "date": "November 23, 2026",
+    "date_iso": "2026-11-23",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/10037050/pexels-photo-10037050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ssa.gov",
+      "floodsmart.gov",
+      "acl.gov"
+    ],
+    "posted_iso": "2026-11-23",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
