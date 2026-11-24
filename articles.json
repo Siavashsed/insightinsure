@@ -494,5 +494,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Insurers Calculate Your Premium on Factors You Barely Control",
+    "slug": "how-insurers-calculate-your-premium-lower-it",
+    "meta_description": "How insurance companies calculate your premium, which factors you can't change, and the five moves that actually lower what you pay.",
+    "date": "November 24, 2026",
+    "date_iso": "2026-11-24",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/33175649/pexels-photo-33175649.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "ftc.gov",
+      "propublica.org",
+      "naic.org"
+    ],
+    "posted_iso": "2026-11-24",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
