@@ -512,5 +512,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Your Travel Insurance Probably Won't Cover the Thing You're Worried About",
+    "slug": "travel-insurance-what-it-covers-excludes",
+    "meta_description": "Travel insurance covers less than most people think. A broker explains what's actually paid, what's excluded, and how to check before you buy.",
+    "date": "November 25, 2026",
+    "date_iso": "2026-11-25",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/16739102/pexels-photo-16739102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "travel.state.gov",
+      "medicare.gov",
+      "content.naic.org"
+    ],
+    "posted_iso": "2026-11-25",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
