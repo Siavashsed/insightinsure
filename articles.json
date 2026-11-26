@@ -530,5 +530,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Most Denied Home Insurance Claims Die on Paperwork, Not Fine Print",
+    "slug": "home-insurance-claims-denied-why",
+    "meta_description": "Home insurance claims get denied for a short list of predictable reasons. A broker explains the real ones and how to fight back.",
+    "date": "November 26, 2026",
+    "date_iso": "2026-11-26",
+    "author": "Patrick Lane",
+    "image": "https://images.pexels.com/photos/30650682/pexels-photo-30650682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "iii.org",
+      "floodsmart.gov",
+      "content.naic.org"
+    ],
+    "posted_iso": "2026-11-26",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
