@@ -548,5 +548,23 @@
     "available_languages": [
       "en"
     ]
+  },
+  {
+    "title": "Never Cancel the Old Policy Until the New One Is in Writing",
+    "slug": "switch-insurance-providers-no-gap",
+    "meta_description": "Switching insurance providers without a gap in coverage takes one rule and a few phone calls. Here's the order I use with clients, step by step.",
+    "date": "November 27, 2026",
+    "date_iso": "2026-11-27",
+    "author": "Greta Holmstrom",
+    "image": "https://images.pexels.com/photos/7648034/pexels-photo-7648034.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "outbound_links": [
+      "insurance-research.org",
+      "healthcare.gov",
+      "content.naic.org"
+    ],
+    "posted_iso": "2026-11-27",
+    "available_languages": [
+      "en"
+    ]
   }
 ]
